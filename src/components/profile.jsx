@@ -79,7 +79,7 @@ export const Experience = [
   {
     start: "Feb 2024",
     end: "Now",
-    pic: "/pln-logo.png",
+    pic: "/experiences/pln-logo.png",
     height: 100,
     width: 100,
     url: "https://web.pln.co.id",
@@ -96,7 +96,7 @@ export const Experience = [
   {
     start: "Aug 2023",
     end: "Jan 2024",
-    pic: "/pln-logo.png",
+    pic: "/experiences/pln-logo.png",
     height: 100,
     width: 100,
     url: "https://web.pln.co.id",
@@ -114,7 +114,7 @@ export const Experience = [
   {
     start: "Jan 2023",
     end: "Jul 2023",
-    pic: "/pip-logo.png",
+    pic: "/experiences/pip-logo.png",
     height: 100,
     width: 175,
     url: "https://www.plnindonesiapower.co.id/",
@@ -132,7 +132,7 @@ export const Experience = [
   {
     start: "Aug 2022",
     end: "Dec 2022",
-    pic: "/pln-logo.png",
+    pic: "/experiences/pln-logo.png",
     height: 100,
     width: 100,
     url: "https://web.pln.co.id",
@@ -150,7 +150,7 @@ export const Experience = [
   {
     start: "Jul 2019",
     end: "Jul 2022",
-    pic: "/pln-logo.png",
+    pic: "/experiences/pln-logo.png",
     height: 100,
     width: 100,
     url: "https://web.pln.co.id",
