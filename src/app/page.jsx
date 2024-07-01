@@ -30,7 +30,7 @@ export default function Home() {
           {/* About Me */}
           <Row className="text-left mt-3">
             <h3 className="text-2xl font-semibold">About Me</h3>
-            <Col md={12}>{About.desc}</Col>
+            <Col md={12} className="text-justify">{About.desc}</Col>
           </Row>
 
           {/* Skills */}
@@ -38,7 +38,7 @@ export default function Home() {
             <h3 className="text-2xl font-semibold">My Skills</h3>
             {Skills.map((skill) => (
               <Col className="mt-2">
-                <div className="badge rounded-pill bg-slate-600 text-sm d-flex align-items-center justify-center font-semibold">
+                <div className="badge rounded-pill px-2 bg-slate-600 text-sm d-flex align-items-center justify-center font-semibold">
                   <skill.icon className="me-2 text-2xl" />
                   {skill.name}
                 </div>

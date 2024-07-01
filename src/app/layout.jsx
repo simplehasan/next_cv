@@ -4,13 +4,13 @@ import "./globals.css";
 import BootstrapClient from "../components/BootstrapClient";
 import { Card, CardBody, CardFooter, Container } from "react-bootstrap";
 import NavBar from "@/components/NavBar";
-import { DarkModeProvider} from "../components/DarkModeContext";
+import { DarkModeProvider } from "../components/DarkModeContext";
 import MFooter from "@/components/MFooter";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Abdullah | Profile",
+  title: "abdullah.",
   description: "Profile of Abdullah Ibnu Hasan",
 };
 
@@ -20,9 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <DarkModeProvider>
-        <body
-          className={`${inter.className} bg-light`}
-        >
+        <body className={`${inter.className} bg-light`}>
           <BootstrapClient />
           <Container className="p-3">
             <NavBar />

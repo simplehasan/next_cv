@@ -10,11 +10,11 @@ import { Col, Row } from "react-bootstrap";
 const Trainings = () => {
   const { darkMode } = useDarkMode();
 
-  const [expandedItems, setExpandedItems] = useState({});
+  // const [expandedItems, setExpandedItems] = useState({});
 
-  const toggleExpand = (key) => {
-    setExpandedItems((prev) => ({ ...prev, [key]: !prev[key] }));
-  };
+  // const toggleExpand = (key) => {
+  //   setExpandedItems((prev) => ({ ...prev, [key]: !prev[key] }));
+  // };
 
   return (
     <>
@@ -65,7 +65,7 @@ const Trainings = () => {
                 - {training.place}
               </div>
               {/* Training Description */}
-              <p className="mt-2 text-justify">
+              {/* <p className="mt-2 text-justify">
                 {expandedItems[key]
                   ? training.desc
                   : `${training.desc.substring(0, 150)}...`}
@@ -75,7 +75,7 @@ const Trainings = () => {
                 className="text-cyan-600 dark:text-cyan-500 hover:text-cyan-800"
               >
                 {expandedItems[key] ? "Read Less" : "Read More"}
-              </button>
+              </button> */}
               {/* Certificate Link */}
               <div className="mt-2">
                 <Link

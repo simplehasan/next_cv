@@ -7,6 +7,7 @@ import {
   BiLogoPython,
   BiLogoSteam,
   BiMoviePlay,
+  BiPaint,
 } from "react-icons/bi";
 
 export const About = {
@@ -14,7 +15,15 @@ export const About = {
   pronouns: "He/His",
   email: "simplehasan.au@gmail.com",
   address: "Clayton VIC 3168, Melbourne Australia",
-  desc: "Lorem Ipsum dolor si amet ...",
+  desc: `I am currently pursuing a Master's degree in Cybersecurity at Monash University, 
+        supported by a scholarship from my company. With three years of experience as a 
+        Predictive Maintenance Engineer specializing in machinery health analysis through 
+        vibration analysis at a coal-fired power plant, I transitioned to a managerial role 
+        leading a team of 10 in Instrumentation and Control Maintenance. Before my study, 
+        I worked as a Formal Education Management Officer at PLN Corporate University for six 
+        months. Additionally, I possess skills in web programming, Python programming, and design. 
+        My diverse background and technical expertise drive my passion for advancing cybersecurity 
+        in critical infrastructures.`,
   currentTitle: "Master Student at Monash University",
   nationality: "Indonesia",
 };
@@ -60,6 +69,10 @@ export const Skills = [
     name: "Python Programming",
     icon: BiLogoPython,
   },
+  {
+    name: "Design",
+    icon: BiPaint,
+  },
 ];
 
 export const Experience = [
@@ -92,7 +105,11 @@ export const Experience = [
     site: "Pusdiklat (Corporate University)",
     city: "Jakarta",
     country: "Indonesia",
-    desc: "",
+    desc: `As a Formal Education Management Officer at PLN Corporate University, I managed employees in our Distance Formal Learning
+          Program, which works with four top universities in Indonesia to offer online classes for over 800 employees. My tasks 
+          included tracking their study progress while they worked, arranging mid-semester and final exams with necessary accommodations, 
+          and leading a major project to turn company issues into research topics, making sure their studies were useful for the company. 
+          This role, my first at a Corporate University, taught me valuable skills in creating employee learning systems.`,
   },
   {
     start: "Jan 2023",
@@ -106,7 +123,11 @@ export const Experience = [
     site: "Asam Asam Power Plant",
     city: "Banjarmasin",
     country: "Indonesia",
-    desc: "",
+    desc: `As the Team Leader of Instrumentation and Control Maintenance at a 20-year-old power plant, I managed a team of 10 skilled
+          individuals. Despite having a relevant background, working with outdated equipment was challenging. My main duties included
+          managing work orders, ensuring safety for the area, equipment, and people, and keeping maintenance records accurate and 
+          up-to-date. I also improved our documentation process, making it easier for the team to solve recurring problems by providing
+          clear and consistent guidelines. This was my first managerial role, and it was a valuable learning experience.`,
   },
   {
     start: "Aug 2022",
@@ -120,7 +141,11 @@ export const Experience = [
     site: "Asam Asam Power Plant",
     city: "Banjarmasin",
     country: "Indonesia",
-    desc: "",
+    desc: `As a Technician of Instrumentation and Control Maintenance, my job matched my bachelor's degree, but working in a power plant
+          over 20 years old with outdated equipment was very hard. I learned about the DCS (Distributed Control System) using Toshiba 
+          and Foxboro brands. Even though I had three years of experience as a predictive maintenance engineer in a coal-fired power plant,
+          this job was different. I had to understand how the power plant worked, including the measurement values for each operating mode. 
+          Learning everything while thinking like an operator was really tough, but my supportive team helped me a lot.`,
   },
   {
     start: "Jul 2019",
@@ -134,6 +159,13 @@ export const Experience = [
     site: "Asam Asam Power Plant",
     city: "Banjarmasin",
     country: "Indonesia",
-    desc: "",
+    desc: `As a Predictive Maintenance Engineer, I faced a challenging transition from my background in electronics and instrumentation to the 
+          mechanical engineering field. Despite having no mechanical engineering background, I found some familiarity in vibration analysis, a 
+          topic related to my bachelor's degree research on digital signal processing. My supportive team and this prior knowledge helped me a 
+          lot. I learned to analyze machinery conditions through vibration patterns, temperature vision, and oil analysis. Feeling the machine 
+          vibrations often indicated metal-to-metal impact, prompting further analysis by the mechanic supervisor. I also learned to balance 
+          rotating equipment (single-plane balancing) and perform ODS (Operating Deflection Shape) analysis. Additionally, I created a website to 
+          record measurements and trends, allowing easy access for everyone. My team and I also developed a simple software to make the balancing 
+          process more efficient, saving time and reducing electricity losses. This was a wonderful and enriching experience.`,
   },
 ];
