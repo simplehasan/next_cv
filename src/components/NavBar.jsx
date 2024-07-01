@@ -14,7 +14,7 @@ import ToggleDarkMode from "./ToggleDarkMode";
 const NavBar = () => {
   return (
     <>
-      <Navbar expand="lg" className="navbar-light" id="NavBar">
+      <Navbar expand="lg" className="navbar" id="NavBar">
         <Container>
           <NavbarBrand href="/" as={Link}>
             <strong>abdullah.</strong>
