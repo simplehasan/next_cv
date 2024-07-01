@@ -6,6 +6,9 @@ export const MyAwards = [
     city: "Jakarta",
     country: "Indonesia",
     pic: "/awards/peo2023.jpg",
+    width: 200,
+    height: 200,
+    desc: "",
   },
   {
     date: "Oct 2020",
@@ -14,5 +17,8 @@ export const MyAwards = [
     city: "Jakarta",
     country: "Indonesia",
     pic: "/awards/inovasi2020.jpg",
+    width: 200,
+    height: 200,
+    desc: "",
   },
 ];

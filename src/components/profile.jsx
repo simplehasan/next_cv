@@ -1,7 +1,12 @@
 import {
+  BiCog,
   BiEnvelope,
   BiLogoInstagramAlt,
+  BiLogoJavascript,
   BiLogoLinkedinSquare,
+  BiLogoPython,
+  BiLogoSteam,
+  BiMoviePlay,
 } from "react-icons/bi";
 
 export const About = {
@@ -32,7 +37,30 @@ export const Social = [
   },
 ];
 
-export const Hobby = ["Movies", "Online Gaming"];
+export const Hobbies = [
+  {
+    name: "Online Gaming",
+    icon: BiLogoSteam,
+  },
+  {
+    name: "Watching Movies",
+    icon: BiMoviePlay,
+  },
+];
+export const Skills = [
+  {
+    name: "Vibration Analysis",
+    icon: BiCog,
+  },
+  {
+    name: "Web Development",
+    icon: BiLogoJavascript,
+  },
+  {
+    name: "Python Programming",
+    icon: BiLogoPython,
+  },
+];
 
 export const Experience = [
   {

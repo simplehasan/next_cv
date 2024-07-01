@@ -3,6 +3,7 @@ import { useDarkMode } from "@/components/DarkModeContext";
 import { MyEducation } from "@/components/education";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 import { Col, Row } from "react-bootstrap";
 
 const Education = () => {
@@ -11,8 +12,8 @@ const Education = () => {
     <>
       <Row className="p-2 align-items-start">
         <h1 className="text-3xl font-bold mb-3">My Educations</h1>
-        {MyEducation.map((edu) => (
-          <>
+        {MyEducation.map((edu, key) => (
+          <React.Fragment key={key}>
             <Col md={4} className="text-center mt-2 font-semibold">
               {edu.start} - {edu.end}
               <Link href={edu.uniUrl} legacyBehavior>
@@ -59,7 +60,7 @@ const Education = () => {
               </div>
             </Col>
             <div className="border-t border-gray-600 dark:border-gray-400 my-12"></div>
-          </>
+          </React.Fragment>
         ))}
       </Row>
       <Row></Row>

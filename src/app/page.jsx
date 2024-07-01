@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Stack } from "react-bootstrap";
 
-import { About, Social } from "@/components/profile";
+import { About, Social, Skills, Hobbies } from "@/components/profile";
 import Link from "next/link";
 
 export default function Home() {
@@ -19,7 +19,9 @@ export default function Home() {
           />
         </Col>
         <Col md={8} className="mt-3">
-          <h1 className="text-center text-md-start text-3xl font-bold">Hello! My name is Abdullah.</h1>
+          <h1 className="text-center text-md-start text-3xl font-bold">
+            Hello! My name is Abdullah.
+          </h1>
           <strong className="text-secondary">{About.currentTitle}</strong>
           <Col md={12}>{About.address}</Col>
           <Row>
@@ -31,13 +33,47 @@ export default function Home() {
             <Col md={12}>{About.desc}</Col>
           </Row>
 
+          {/* Skills */}
+          <Row className="text-left mt-3">
+            <h3 className="text-2xl font-semibold">My Skills</h3>
+            {Skills.map((skill) => (
+              <Col className="mt-2">
+                <div className="badge rounded-pill bg-slate-600 text-sm d-flex align-items-center justify-center font-semibold">
+                  <skill.icon className="me-2 text-2xl" />
+                  {skill.name}
+                </div>
+              </Col>
+            ))}
+          </Row>
+
+          {/* Hobbies */}
+          <Row className="text-left mt-3">
+            <h3 className="text-2xl font-semibold mb2">My Hobbies</h3>
+
+            {
+              Hobbies.map((hobby) => (
+                <Col className="mt-2">
+                  <div className="badge rounded-pill bg-slate-600 text-sm d-flex align-items-center justify-center font-semibold px-2">
+                    <hobby.icon className="me-2 text-2xl" />
+                    {hobby.name}
+                  </div>
+                </Col>
+                )
+              )
+            }
+          </Row>
+
           {/* Social Media */}
           <Row className="text-left mt-3">
             <h3 className="text-2xl font-semibold">Contacts</h3>
             {Social.map((social, key) => (
               <Col md={12} className="d-flex align-items-center">
-                <social.icon className="me-2 text-xl"/>
-                <Link href={social.url} className="text-cyan-700 dark:text-cyan-500" target="_blank">
+                <social.icon className="me-2 text-2xl" />
+                <Link
+                  href={social.url}
+                  className="text-cyan-700 dark:text-cyan-500"
+                  target="_blank"
+                >
                   {social.platform}
                 </Link>
               </Col>
