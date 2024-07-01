@@ -5,6 +5,7 @@ import { useDarkMode } from "../../components/DarkModeContext";
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Divider from "@/components/Divider";
 
 const Experience = () => {
   const { darkMode } = useDarkMode();
@@ -22,7 +23,7 @@ const Experience = () => {
         {Exp.map((exp, key) => (
           <React.Fragment key={key}>
             <Col md={4} className="text-center mt-2 font-semibold">
-                {exp.start} - {exp.end}
+              {exp.start} - {exp.end}
               <Link href={exp.url} legacyBehavior>
                 <a target="_blank" rel="noopener noreferrer">
                   <div className="block sm:hidden">
@@ -68,7 +69,7 @@ const Experience = () => {
                 {expandedItems[key] ? "Read Less" : "Read More"}
               </button>
             </Col>
-            <div className="border-t border-gray-600 dark:border-gray-400 my-12"></div>
+            <Divider />
           </React.Fragment>
         ))}
       </Row>
