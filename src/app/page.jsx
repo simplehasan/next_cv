@@ -36,8 +36,8 @@ export default function Home() {
           {/* Skills */}
           <Row className="text-left mt-3">
             <h3 className="text-2xl font-semibold">My Skills</h3>
-            {Skills.map((skill) => (
-              <Col className="mt-2">
+            {Skills.map((skill, key) => (
+              <Col className="mt-2" key={key}>
                 <div className="badge rounded-pill px-2 bg-slate-600 text-sm d-flex align-items-center justify-center font-semibold">
                   <skill.icon className="me-2 text-2xl" />
                   {skill.name}
@@ -51,8 +51,8 @@ export default function Home() {
             <h3 className="text-2xl font-semibold mb2">My Hobbies</h3>
 
             {
-              Hobbies.map((hobby) => (
-                <Col className="mt-2">
+              Hobbies.map((hobby, key) => (
+                <Col className="mt-2" key={key}>
                   <div className="badge rounded-pill bg-slate-600 text-sm d-flex align-items-center justify-center font-semibold px-2">
                     <hobby.icon className="me-2 text-2xl" />
                     {hobby.name}
@@ -67,7 +67,7 @@ export default function Home() {
           <Row className="text-left mt-3">
             <h3 className="text-2xl font-semibold">Contacts</h3>
             {Social.map((social, key) => (
-              <Col md={12} className="d-flex align-items-center">
+              <Col md={12} className="d-flex align-items-center" key={key}>
                 <social.icon className="me-2 text-2xl" />
                 <Link
                   href={social.url}
