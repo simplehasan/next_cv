@@ -6,7 +6,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { Col, Modal, ModalBody, ModalHeader, Row } from "react-bootstrap";
 
-const Awards = () => {
+const Achievemnets = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const { darkMode } = useDarkMode();
@@ -104,4 +104,4 @@ const Awards = () => {
   );
 };
 
-export default Awards;
+export default Achievemnets;

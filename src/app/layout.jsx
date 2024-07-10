@@ -11,7 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "abdullah.",
-  description: "Profile of Abdullah Ibnu Hasan",
+  description: "Hi! I am Abdullah, a master of cybersecurity student at Monash University.",
+  author: "Abdullah",
+  keyword: "abdullah, resume, cv",
 };
 
 <link rel="icon" href="/favicon.ico" sizes="any" />;

@@ -33,12 +33,24 @@ export const MyEducation = [
 
 export const MyTrainings = [
   {
+    end: "Jul 2024",
+    desc: "In this module, we learned about the entire penetration testing process, how it is created, its essential components, and how it is divided into the corresponding stages. This will make it very easy for us to find our way around each stage as we follow the process and quickly find out which parts of the process we need to work on to improve.",
+    title: "Penetration Testing Process",
+    vendor: "Hack The Box",
+    vendorUrl: "https://academy.hackthebox.com/",
+    place: "Online",
+    certificate: "https://academy.hackthebox.com/achievement/888841/90",
+    pic: "/trainings/pentest-process.webp",
+    width: 200,
+    height: 100,
+  },
+  {
     end: "Oct 2023",
     desc: "Lorem ipsum dolor amet sit",
     title: "Certified Ethical Hacker (CEH)",
     vendor: "Course-Net",
     vendorUrl: "https://course-net.com/",
-    place: "Jakarta",
+    place: "Jakarta, Indonesia",
     certificate:
       "https://aspen.eccouncil.org/VerifyBadge?type=certification&a=GBQY5AAA3sD50ztAFKVv5N3j9syaGHcmG+a9xSVvjNM=",
     pic: "/trainings/CEH_2E345519D3F7.png",

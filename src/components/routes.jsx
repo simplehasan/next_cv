@@ -1,5 +1,6 @@
 import {
   BiAward,
+  BiBookContent,
   BiBriefcaseAlt2,
   BiChalkboard,
   BiHomeAlt,
@@ -11,5 +12,6 @@ export const Routes = [
   { name: "Experience", url: "/experience", icon: BiBriefcaseAlt2 },
   { name: "Education", url: "/education", icon: BiSolidGraduation },
   { name: "Trainings", url: "/trainings", icon: BiChalkboard },
-  { name: "Awards", url: "/awards", icon: BiAward },
+  { name: "Achievements", url: "/achievements", icon: BiAward },
+  { name: "Publications", url: "/publications", icon: BiBookContent },
 ];

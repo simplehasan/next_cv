@@ -5,7 +5,7 @@ export const MyAwards = [
     organizer: "PT PLN (Persero)",
     city: "Jakarta",
     country: "Indonesia",
-    pic: "/awards/peo2023.jpg",
+    pic: "/achievements/peo2023.jpg",
     width: 200,
     height: 200,
     desc: `I was chosen to represent the Corporate University in the PLN English Olympiad 2023,
@@ -22,7 +22,7 @@ export const MyAwards = [
     organizer: "PT PLN (Persero)",
     city: "Jakarta",
     country: "Indonesia",
-    pic: "/awards/inovasi2020.jpg",
+    pic: "/achievements/inovasi2020.jpg",
     width: 200,
     height: 200,
     desc: `I joined my company's prestigious Innovation Competition for the first time in 2020, invited by my 

@@ -1,7 +1,6 @@
 "use client";
 import { useDarkMode } from "@/components/DarkModeContext";
 import { MyEducation } from "@/components/education";
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -11,10 +10,6 @@ const Education = () => {
   const { darkMode } = useDarkMode();
   return (
     <>
-      <Head>
-        <title>Abdullah | Educations</title>
-        <meta name="description" content="Educations of Abdullah Ibnu Hasan"/>
-      </Head>
       <Row className="p-2 align-items-start">
         <h1 className="text-3xl font-bold mb-3">My Educations</h1>
         {MyEducation.map((edu, key) => (

@@ -70,7 +70,7 @@ export const Skills = [
     icon: BiLogoPython,
   },
   {
-    name: "Design",
+    name: "Graphic Design",
     icon: BiPaint,
   },
 ];
@@ -167,5 +167,24 @@ export const Experience = [
           rotating equipment (single-plane balancing) and perform ODS (Operating Deflection Shape) analysis. Additionally, I created a website to 
           record measurements and trends, allowing easy access for everyone. My team and I also developed a simple software to make the balancing 
           process more efficient, saving time and reducing electricity losses. This was a wonderful and enriching experience.`,
+  },
+  {
+    start: "Apr 2019",
+    end: "Jun 2019",
+    pic: "/experiences/pln-logo.png",
+    height: 100,
+    width: 100,
+    url: "https://web.pln.co.id",
+    title: "Assistant Engineer of Coal and Ash Handling Maintenance",
+    company: "PT PLN (Persero)",
+    site: "Asam Asam Power Plant",
+    city: "Banjarmasin",
+    country: "Indonesia",
+    desc: `In my first job after graduating with a bachelor's degree in Electronics and Instrumentation from UGM Indonesia, I worked as an Assistant 
+          Engineer of Coal and Ash Handling Maintenance at PT PLN (Persero). This role was particularly challenging as it required me to quickly 
+          adapt and learn about mechanical systems, which were outside my primary field of study. My responsibilities included ensuring that all 
+          work orders were completed and all safety regulations were adhered to, as the maintenance work was outsourced to a third-party company. 
+          Additionally, I managed the material inventory, overseeing a variety of consumable materials such as bearings, mechanical seals, gearbox 
+          oils, and grease, to ensure smooth and continuous operations at the power plant.`,
   },
 ];
